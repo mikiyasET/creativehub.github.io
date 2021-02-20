@@ -36,10 +36,9 @@ body {
 	position: relative;
 }
 .cover-text {
-  text-align: center;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: #ffffff;
 }
@@ -53,23 +52,158 @@ body {
 }
 
 
-.f1-section {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	text-align: center;
-	display: grid;
-	justify-items: center;
+
+
+.post-module {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: #FFFFFF;
+  width: 300px;
+  height: auto;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+ 
 }
-.welcome-text {
-	font-size: 36px;
-	margin-bottom: 3%;
-}
-.w1-decription-text {
-	width: 100%;
+.post-module:hover,
+.hover {
+  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
 }
 
-/* cards */
-.c1-long-card {
-	height: 570px;
-	background-color: #f05152;
+.post-content {
+  padding: 30px;
+  
+}
+.title {
+  margin: 0;
+  padding: 0 0 10px;
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+}
+.sub_title {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #ff7f00;
+  font-size: 20px;
+  font-weight: 400;
+}
+.description {
+  display: none;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+.post-meta {
+  margin: 30px 0 0;
+  color: #999999;
+}
+.post-meta .timestamp {
+  margin: 0 16px 0 0;
+}
+.post-meta a {
+  color: #999999;
+  text-decoration: none;
+}
+.hover .post-content .description {
+  display: block !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
+.p1-post {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+.nbtncenters:hover {
+  color: #fff;
+}
+.nbtncenters::before, .nbtncenters::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+}
+.nbtncenters::before {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: scale3d(0, 1, 1);
+}
+.nbtncenters::after {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: scale3d(1, 0, 1);
+}
+.nbtncenters:hover::before, .nbtncenters:hover::after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 0.5s;
+}
+
+.nbtncenter:hover {
+  color: #6477b9;
+}
+.nbtncenter::before, .nbtncenter::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+}
+.nbtncenter::before {
+  border-top: 2px solid #6477b9;
+  border-bottom: 2px solid #6477b9;
+  transform: scale3d(0, 1, 1);
+}
+.nbtncenter::after {
+  border-left: 2px solid #6477b9;
+  border-right: 2px solid #6477b9;
+  transform: scale3d(1, 0, 1);
+}
+.nbtncenter:hover::before, .nbtncenter:hover::after {
+  transform: scale3d(1, 1, 1);
+  transition: transform 0.5s;
+}
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: inset 0 0 0 2px #ff7f00;
+  color: #ff7f00;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+button::before, button::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.team-member {
+	font-size: 20px;
+}
+.team-card{
+	border-radius: 5px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
+	display: grid;
+	align-items: center;
+	width: 350px;
+}
+.team-img > img{
+	border-radius: 5px 5px 0px 0px;
+	width: 100%;
+	height: 250px; 
+
+}
+.team-con {
+	padding: 20px;
 }
