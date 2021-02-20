@@ -54,7 +54,8 @@ body {
 
 
 .f1-section {
-	padding: 5% 10% 5% 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 	text-align: center;
 	display: grid;
 	justify-items: center;
@@ -64,7 +65,7 @@ body {
 	margin-bottom: 3%;
 }
 .w1-decription-text {
-	width: 65%;
+	width: 100%;
 }
 
 /* cards */
