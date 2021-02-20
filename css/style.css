@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Cambria";
-  src: url(../font/Cambria-Bold.ttf);
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-Regular.otf);
 } 
 
 body {
-	font-family: "Cambria"; 
+	font-family: "Montserrat"; 
 
 }
 
@@ -195,7 +195,7 @@ button::before, button::after {
 	box-shadow: 0 2px 8px 0 rgba(0,0,0,.08);
 	display: grid;
 	align-items: center;
-	width: 350px;
+	width: 300px;
 }
 .team-img > img{
 	border-radius: 5px 5px 0px 0px;
