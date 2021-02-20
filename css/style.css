@@ -30,7 +30,6 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-
 	width: 100%;
 	height: 87.6vh;
 	position: relative;
@@ -114,8 +113,8 @@ body {
   opacity: 1 !important;
 }
 .p1-post {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 
@@ -205,5 +204,67 @@ button::before, button::after {
 
 }
 .team-con {
+	background-color: #ffffff;
 	padding: 20px;
+}
+.partners{
+	padding: 30px; 
+}
+.pa-des {
+	padding-top: 2%;
+	padding-left: 10%;
+	color: #707071;
+}
+.pa-logo {
+	width: 240px;
+	height: 145px;
+}
+
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529;
+}
+
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: #fec503;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: #1a1d20;
+}
+
+footer .quick-links {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+  color: white;
+}
+
+.fa-ellipsis-h {
+  color: white;
+  padding: 2rem 0;
 }
