@@ -2,12 +2,18 @@
   font-family: "Montserrat";
   src: url(../font/Montserrat-Regular.otf);
 } 
+@font-face {
+  font-family: "Montserrateb";
+  src: url(../font/Montserrat-ExtraBold.otf);
+} 
 
 body {
 	font-family: "Montserrat"; 
 
 }
-
+.titless {
+	font-family: 'Montserrateb';
+}
 .main-navbar {
 	background-color: #fff;
 	background-position: center;
