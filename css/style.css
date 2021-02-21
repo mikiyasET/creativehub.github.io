@@ -11,6 +11,11 @@ body {
 	font-family: "Montserrat"; 
 
 }
+footer {
+	width: 100%;
+	bottom: 0%;
+	position: absolute; /* to be changed */
+}
 .titless {
 	font-family: 'Montserrateb';
 }
