@@ -770,7 +770,7 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
 
 .mgl--30 { margin-left: -30px; }
 
-.copyright { padding: 15px 0; background: #222; }
+.copyright { padding: 15px 0; background: transparent; }
 .copyright .site-copy { font-size: 14px; line-height: 30px; }
 .copyright .social li a { color: #fff; }
 .copyright .social li a:hover, .copyright .social li a:focus { color: #f7921a; }
@@ -780,9 +780,9 @@ div[class*="wide-"] + div[class*="row-column"]:not([class*="mg"]):not([class*="m
 .pagination li a:hover, .pagination li a:focus { color: #fff; background: #f7921a; border-color: #f7921a; }
 .pagination li .fa { position: relative; top: -2px; }
 
-.footer-section { background: #0f152b; }
+.footer-section { background: transparent; }
 
-.copyright { background: #0d1120; }
+.copyright { background: transparent; }
 
 @media only screen and (max-width: 1280px) { .owl-nav .owl-next { right: 0; }
   .owl-nav .owl-prev { left: 0; } }
