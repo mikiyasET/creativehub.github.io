@@ -20,7 +20,7 @@
     var swipers = new Swiper('.swipers-container', {
     	spaceBetween: 530,
     	loop: true,
-	    speed: 1000,
+	    speed: 2000,
 		scrollbar: {
 			el: '.swiper-scrollbar',
 			hide: true,
