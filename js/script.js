@@ -18,8 +18,15 @@
     });
 
     var swipers = new Swiper('.swipers-container', {
-      scrollbar: {
-        el: '.swiper-scrollbar',
-        hide: true,
-      },
+    	spaceBetween: 530,
+    	loop: true,
+	    speed: 1000,
+		scrollbar: {
+			el: '.swiper-scrollbar',
+			hide: true,
+		},
+		autoplay: {
+	        delay: 1000,
+	        disableOnInteraction: false,
+	    },
     });

@@ -9,7 +9,7 @@
 
 body {
 	font-family: Montserrat,sans-serif; 
-
+  overflow-x: hidden;
 }
 footer {
 	width: 100%;
@@ -284,7 +284,10 @@ footer .quick-links {
       width: 100%;
       height: 100%;
     }
-
+.swiper-containers {
+      width: 100%;
+      height: 100%;
+    }
     .swiper-slide {
       background-position: center;
       background-size: cover;
