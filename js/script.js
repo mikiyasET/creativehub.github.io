@@ -16,3 +16,10 @@
 	      prevEl: '.swiper-button-prev',
 	    },
     });
+
+    var swipers = new Swiper('.swipers-container', {
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: true,
+      },
+    });
